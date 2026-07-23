@@ -1,0 +1,720 @@
+[
+  {
+    "word": "ability",
+    "definition": "the quality of being able to perform; a quality that permits or facilitates achievement or accomplishment"
+  },
+  { "word": "academy", "definition": "a learned establishment for the advancement of knowledge" },
+  { "word": "account", "definition": "the quality of taking advantage" },
+  { "word": "achieve", "definition": "to gain with effort" },
+  {
+    "word": "address",
+    "definition": "the ability to do or say what is appropriate for the occasion"
+  },
+  { "word": "adopted", "definition": "acquired as your own by free choice" },
+  { "word": "advance", "definition": "situated ahead or going before" },
+  { "word": "affairs", "definition": "transactions of professional or public interest" },
+  { "word": "african", "definition": "of or relating to the nations of Africa or their peoples" },
+  {
+    "word": "airport",
+    "definition": "an airfield equipped with control tower and hangars as well as accommodations for passengers and cargo"
+  },
+  { "word": "alcohol", "definition": "a liquor or brew containing alcohol as the active agent" },
+  { "word": "already", "definition": "prior to a specified or implied time" },
+  { "word": "amazing", "definition": "inspiring awe or admiration or wonder" },
+  { "word": "ancient", "definition": "very old" },
+  {
+    "word": "another",
+    "definition": "any of various alternatives; some other; entity, singular, other pronoun; quantifier, singular, another"
+  },
+  {
+    "word": "anymore",
+    "definition": "at the present or from now on; usually used with a negative"
+  },
+  {
+    "word": "applied",
+    "definition": "concerned with concrete problems or data rather than with fundamental principles"
+  },
+  { "word": "article", "definition": "one of a class of artifacts" },
+  { "word": "attempt", "definition": "the act of attacking" },
+  {
+    "word": "average",
+    "definition": "lacking special distinction, rank, or status; commonly encountered"
+  },
+  { "word": "awesome", "definition": "inspiring awe or admiration or wonder" },
+  { "word": "balance", "definition": "a scale for weighing; depends on pull of gravity" },
+  { "word": "battery", "definition": "an assault in which the assailant makes physical contact" },
+  { "word": "believe", "definition": "accept as true; take to be true" },
+  { "word": "benefit", "definition": "something that aids or promotes well-being" },
+  { "word": "besides", "definition": "making an additional point; anyway" },
+  { "word": "between", "definition": "in between" },
+  {
+    "word": "billion",
+    "definition": "denoting a quantity consisting of one thousand million items or units in the United States"
+  },
+  {
+    "word": "british",
+    "definition": "of or relating to or characteristic of Great Britain or its people or culture"
+  },
+  { "word": "brother", "definition": "a male with the same parents as someone else" },
+  { "word": "burning", "definition": "of immediate import" },
+  { "word": "calling", "definition": "the particular occupation for which you are trained" },
+  { "word": "capable", "definition": "having the requisite qualities for" },
+  { "word": "capital", "definition": "uppercase" },
+  {
+    "word": "captain",
+    "definition": "a dining-room attendant who is in charge of the waiters and the seating of customers"
+  },
+  { "word": "careful", "definition": "exercising caution or showing care or attention" },
+  { "word": "causing", "definition": "the act of causing something to happen" },
+  {
+    "word": "central",
+    "definition": "in or near a center or constituting a center; the inner area"
+  },
+  { "word": "century", "definition": "ten 10s" },
+  { "word": "certain", "definition": "exercising or taking care great enough to bring assurance" },
+  { "word": "changed", "definition": "made or become different in some respect" },
+  {
+    "word": "channel",
+    "definition": "a way of selling a company's product either directly or via distributors"
+  },
+  {
+    "word": "chapter",
+    "definition": "a subdivision of a written work; usually numbered and titled"
+  },
+  {
+    "word": "charged",
+    "definition": "of a particle or body or system; having a net amount of positive or negative electric charge"
+  },
+  { "word": "checked", "definition": "patterned with alternating squares of color" },
+  {
+    "word": "chicago",
+    "definition": "a gambling card game in which chips are placed on the ace and king and queen and jack of separate suits (taken from a separate deck); a player plays the lowest card of a suit in their hand and successively higher cards are played until the sequence stops; the player who plays a card matching one in the layout wins all the chips on that card"
+  },
+  { "word": "chicken", "definition": "easily frightened" },
+  { "word": "chinese", "definition": "of or pertaining to China or its peoples or cultures" },
+  {
+    "word": "classic",
+    "definition": "of or relating to the first significant period of a civilization, culture, area of study, etc."
+  },
+  { "word": "clearly", "definition": "without doubt or question" },
+  {
+    "word": "climate",
+    "definition": "the weather in some location averaged over some long period of time"
+  },
+  { "word": "closely", "definition": "in a close relation or position in time or space" },
+  { "word": "clothes", "definition": "clothing in general" },
+  {
+    "word": "college",
+    "definition": "a complex of buildings in which an institution of higher education is housed"
+  },
+  { "word": "command", "definition": "availability for use" },
+  {
+    "word": "comment",
+    "definition": "a written explanation or criticism or illustration that is added to a book or other textual material"
+  },
+  { "word": "company", "definition": "an institution created to conduct business" },
+  {
+    "word": "complex",
+    "definition": "complicated in structure; consisting of interconnected parts"
+  },
+  {
+    "word": "concept",
+    "definition": "an abstract or general idea inferred or derived from specific instances"
+  },
+  {
+    "word": "concern",
+    "definition": "something that interests you because it is important or affects you"
+  },
+  {
+    "word": "concert",
+    "definition": "a performance of music by players or singers not involving theatrical staging"
+  },
+  { "word": "conduct", "definition": "manner of acting or controlling yourself" },
+  { "word": "contact", "definition": "close interaction" },
+  {
+    "word": "contain",
+    "definition": "hold back, as of a danger or an enemy; check the expansion or influence of"
+  },
+  { "word": "content", "definition": "satisfied or showing satisfaction with things as they are" },
+  { "word": "contest", "definition": "a struggle between rivals" },
+  {
+    "word": "context",
+    "definition": "discourse that surrounds a language unit and helps to determine its interpretation"
+  },
+  {
+    "word": "control",
+    "definition": "the activity of managing or exerting control over something"
+  },
+  { "word": "correct", "definition": "free from error; especially conforming to fact or truth" },
+  { "word": "council", "definition": "a meeting of people for consultation" },
+  { "word": "counter", "definition": "indicating opposition or resistance" },
+  { "word": "country", "definition": "the people who live in a nation or country" },
+  {
+    "word": "covered",
+    "definition": "overlaid or spread or topped with or enclosed within something; sometimes used as a combining form"
+  },
+  { "word": "culture", "definition": "the raising of plants or animals" },
+  { "word": "current", "definition": "occurring in or belonging to the present time" },
+  { "word": "cutting", "definition": "painful as if caused by a sharp instrument" },
+  {
+    "word": "dancing",
+    "definition": "taking a series of rhythmical steps (and movements) in time to music"
+  },
+  {
+    "word": "dealing",
+    "definition": "the act of transacting within or between groups (as carrying on commercial activities)"
+  },
+  { "word": "decided", "definition": "recognizable; marked" },
+  {
+    "word": "defence",
+    "definition": "the act of defending someone or something against attack or injury"
+  },
+  {
+    "word": "defense",
+    "definition": "the act of defending someone or something against attack or injury"
+  },
+  { "word": "defined", "definition": "clearly characterized or delimited" },
+  { "word": "deliver", "definition": "cause to be born" },
+  { "word": "deserve", "definition": "be worthy or deserving" },
+  { "word": "despite", "definition": "contemptuous disregard" },
+  { "word": "destroy", "definition": "defeat soundly and humiliatingly" },
+  { "word": "details", "definition": "true confidential information" },
+  {
+    "word": "develop",
+    "definition": "come to have or undergo a change of (physical features and attributes)"
+  },
+  {
+    "word": "devices",
+    "definition": "an inclination or desire; used in the plural in the phrase ‘left to your own devices’"
+  },
+  {
+    "word": "digital",
+    "definition": "of a circuit or device that represents magnitudes in digits"
+  },
+  {
+    "word": "discuss",
+    "definition": "speak with others about (something); talk (something) over in detail; have a discussion"
+  },
+  {
+    "word": "disease",
+    "definition": "an impairment of health or a condition of abnormal functioning"
+  },
+  { "word": "display", "definition": "something shown to the public" },
+  { "word": "drawing", "definition": "the act of moving a load by drawing or pulling" },
+  { "word": "driving", "definition": "having the power of driving or impelling" },
+  {
+    "word": "earlier",
+    "definition": "(comparative and superlative of ‘early’) more early than; most early"
+  },
+  { "word": "eastern", "definition": "from the east; used especially of winds" },
+  { "word": "economy", "definition": "an act of economizing; reduction in cost" },
+  { "word": "edition", "definition": "something a little different from others of the same type" },
+  {
+    "word": "effects",
+    "definition": "property of a personal character that is portable but not used in business"
+  },
+  { "word": "elected", "definition": "subject to popular election" },
+  { "word": "engaged", "definition": "pledged to be married" },
+  {
+    "word": "english",
+    "definition": "of or relating to or characteristic of England or its culture or people"
+  },
+  {
+    "word": "episode",
+    "definition": "film consisting of a succession of related shots that develop a given subject in a movie"
+  },
+  {
+    "word": "evening",
+    "definition": "a conventional expression of greeting or farewell, used to wish someone a good evening"
+  },
+  { "word": "exactly", "definition": "indicating exactness or preciseness" },
+  {
+    "word": "example",
+    "definition": "a task performed or problem solved in order to develop skill or understanding"
+  },
+  { "word": "excited", "definition": "(of persons) excessively affected by emotion" },
+  { "word": "explain", "definition": "serve as a reason or cause or justification of" },
+  { "word": "exposed", "definition": "not covered with clothing" },
+  { "word": "express", "definition": "not tacit or implied" },
+  { "word": "extreme", "definition": "most distant in any direction" },
+  {
+    "word": "factory",
+    "definition": "a plant consisting of one or more buildings with facilities for manufacturing"
+  },
+  { "word": "failure", "definition": "an unexpected omission" },
+  { "word": "falling", "definition": "coming down freely under the influence of gravity" },
+  { "word": "fantasy", "definition": "imagination unrestricted by reality" },
+  { "word": "fashion", "definition": "characteristic or habitual practice" },
+  {
+    "word": "feature",
+    "definition": "an article of merchandise that is displayed or advertised more than other articles"
+  },
+  {
+    "word": "federal",
+    "definition": "national; especially in reference to the government of the United States as distinct from that of its member units"
+  },
+  { "word": "feeling", "definition": "the experiencing of affective and emotional states" },
+  { "word": "finally", "definition": "as the end result of a succession or process" },
+  { "word": "finance", "definition": "the commercial activity of providing funds and capital" },
+  {
+    "word": "finding",
+    "definition": "the act of determining the properties of something, usually by research or calculation"
+  },
+  {
+    "word": "focused",
+    "definition": "of an optical system (e.g. eye or opera glasses) adjusted to produce a clear image"
+  },
+  {
+    "word": "foreign",
+    "definition": "relating to or originating in or characteristic of another place or part of the world"
+  },
+  { "word": "forever", "definition": "invariably" },
+  { "word": "forward", "definition": "at or near or directed toward the front" },
+  {
+    "word": "freedom",
+    "definition": "the condition of being free; the power to act or speak or think without externally imposed restraints"
+  },
+  { "word": "fucking", "definition": "informal intensifiers" },
+  { "word": "funding", "definition": "the act of financing" },
+  { "word": "further", "definition": "more distant in especially degree" },
+  { "word": "general", "definition": "prevailing among and common to the general public" },
+  { "word": "getting", "definition": "the act of acquiring something" },
+  { "word": "granted", "definition": "acknowledged as a supposition" },
+  { "word": "greater", "definition": "greater in size or importance or degree" },
+  { "word": "growing", "definition": "relating to or suitable for growth" },
+  {
+    "word": "hanging",
+    "definition": "the act of suspending something (hanging it from above so it moves freely)"
+  },
+  { "word": "healthy", "definition": "large in amount or extent or degree" },
+  { "word": "hearing", "definition": "able to perceive sound" },
+  { "word": "heavily", "definition": "to a considerable degree" },
+  {
+    "word": "helping",
+    "definition": "an individual quantity of food or drink taken as part of a meal"
+  },
+  {
+    "word": "history",
+    "definition": "the discipline that records and interprets past events involving human beings"
+  },
+  { "word": "holding", "definition": "the act of retaining something" },
+  { "word": "holiday", "definition": "leisure time away from work devoted to rest or pleasure" },
+  {
+    "word": "housing",
+    "definition": "stable gear consisting of a decorated covering for a horse, especially (formerly) for a warhorse"
+  },
+  {
+    "word": "however",
+    "definition": "despite anything to the contrary (usually preceding a concession)"
+  },
+  { "word": "hundred", "definition": "being ten more than ninety" },
+  { "word": "husband", "definition": "a married man; a woman's partner in marriage" },
+  { "word": "illegal", "definition": "prohibited by law or by official or accepted rules" },
+  { "word": "imagine", "definition": "expect, believe, or suppose" },
+  { "word": "improve", "definition": "get better" },
+  {
+    "word": "include",
+    "definition": "add as part of something else; put in as part of a set, group, or category"
+  },
+  { "word": "initial", "definition": "occurring at the beginning" },
+  { "word": "injured", "definition": "harmed" },
+  { "word": "instead", "definition": "in place of, or as an alternative to" },
+  {
+    "word": "italian",
+    "definition": "of or pertaining to or characteristic of Italy or its people or culture or language"
+  },
+  {
+    "word": "january",
+    "definition": "the first month of the year; begins 10 days after the winter solstice"
+  },
+  { "word": "journal", "definition": "the part of the axle contained by a bearing" },
+  { "word": "journey", "definition": "the act of traveling from one place to another" },
+  {
+    "word": "justice",
+    "definition": "judgment involved in the determination of rights and the assignment of rewards and punishments"
+  },
+  { "word": "keeping", "definition": "the act of retaining something" },
+  { "word": "killing", "definition": "very funny" },
+  { "word": "kingdom", "definition": "a basic group of natural objects" },
+  { "word": "kitchen", "definition": "a room equipped for preparing meals" },
+  {
+    "word": "knowing",
+    "definition": "highly educated; having extensive information or understanding"
+  },
+  { "word": "largely", "definition": "in large part; mainly or chiefly" },
+  { "word": "leaders", "definition": "the body of people who lead a group" },
+  { "word": "leading", "definition": "going or proceeding or going in advance; showing the way" },
+  {
+    "word": "learned",
+    "definition": "highly educated; having extensive information or understanding"
+  },
+  { "word": "leaving", "definition": "the act of departing" },
+  { "word": "letters", "definition": "the literary culture" },
+  { "word": "letting", "definition": "property that is leased or rented out or let" },
+  { "word": "liberal", "definition": "showing or characterized by broad-mindedness" },
+  {
+    "word": "library",
+    "definition": "a depository built to contain books and other materials for reading and study"
+  },
+  { "word": "license", "definition": "the act of giving a formal (usually written) authorization" },
+  { "word": "limited", "definition": "including only a part" },
+  { "word": "located", "definition": "situated in a particular spot or position" },
+  {
+    "word": "looking",
+    "definition": "appearing to be as specified; usually used as combining forms"
+  },
+  {
+    "word": "machine",
+    "definition": "a motor vehicle with four wheels; usually propelled by an internal combustion engine"
+  },
+  {
+    "word": "manager",
+    "definition": "(sports) someone in charge of training an athlete or a team"
+  },
+  { "word": "married", "definition": "joined in matrimony" },
+  {
+    "word": "massive",
+    "definition": "consisting of great mass; containing a great quantity of matter"
+  },
+  { "word": "maximum", "definition": "the greatest or most complete or best possible" },
+  { "word": "meaning", "definition": "rich in significance or implication" },
+  {
+    "word": "measure",
+    "definition": "how much there is or how many there are of something that you can quantify"
+  },
+  {
+    "word": "medical",
+    "definition": "requiring or amenable to treatment by medicine especially as opposed to surgery"
+  },
+  { "word": "meeting", "definition": "the act of joining together as one" },
+  { "word": "mention", "definition": "an official recognition of merit" },
+  {
+    "word": "message",
+    "definition": "a communication (usually brief) that is written or spoken or signaled"
+  },
+  { "word": "michael", "definition": "(Old Testament) the guardian archangel of the Jews" },
+  {
+    "word": "million",
+    "definition": "(in Roman numerals, M written with a macron over it) denoting a quantity consisting of 1,000,000 items or units"
+  },
+  { "word": "minimum", "definition": "the least possible" },
+  { "word": "minutes", "definition": "a written account of what transpired at a meeting" },
+  { "word": "missing", "definition": "nonexistent" },
+  { "word": "mission", "definition": "the organized work of a religious missionary" },
+  {
+    "word": "mistake",
+    "definition": "a wrong action attributable to bad judgment or ignorance or inattention"
+  },
+  { "word": "monthly", "definition": "of or occurring or payable every month" },
+  {
+    "word": "morning",
+    "definition": "a conventional expression of greeting or farewell, used to wish someone a good morning"
+  },
+  {
+    "word": "musical",
+    "definition": "containing or constituting or characterized by pleasing melody"
+  },
+  { "word": "natural", "definition": "free from artificiality" },
+  {
+    "word": "neither",
+    "definition": "not either; not one or the other; entity, dual, negative pronoun; quantifier, dual, negative"
+  },
+  {
+    "word": "network",
+    "definition": "an open fabric of string or rope or wire woven together at regular intervals"
+  },
+  { "word": "nothing", "definition": "in no respect; to no degree" },
+  { "word": "noticed", "definition": "being perceived or observed" },
+  { "word": "nuclear", "definition": "constituting or like a nucleus" },
+  { "word": "numbers", "definition": "an illegal daily lottery" },
+  { "word": "obvious", "definition": "easily perceived and understood" },
+  { "word": "october", "definition": "the month following September and preceding November" },
+  {
+    "word": "officer",
+    "definition": "any person in the armed services who holds a position of authority or command"
+  },
+  { "word": "opening", "definition": "first or beginning" },
+  { "word": "operate", "definition": "perform surgery on" },
+  {
+    "word": "opinion",
+    "definition": "the reason for a court's judgment (as opposed to the decision itself)"
+  },
+  { "word": "opposed", "definition": "being in opposition or having an opponent" },
+  {
+    "word": "ordered",
+    "definition": "marked by an orderly, logical, and aesthetically consistent relation of parts"
+  },
+  {
+    "word": "outside",
+    "definition": "(of a baseball pitch) on the far side of home plate from the batter"
+  },
+  { "word": "overall", "definition": "involving only main features" },
+  { "word": "pacific", "definition": "promoting peace" },
+  {
+    "word": "partner",
+    "definition": "an associate in an activity or endeavor or sphere of common interest"
+  },
+  { "word": "passing", "definition": "hasty and without attention to detail; not thorough" },
+  {
+    "word": "patient",
+    "definition": "enduring trying circumstances with even temper or characterized by such endurance"
+  },
+  { "word": "pattern", "definition": "a customary way of operation or behavior" },
+  { "word": "payment", "definition": "the act of paying money" },
+  {
+    "word": "percent",
+    "definition": "a proportion in relation to a whole (which is usually the amount per hundred); ten percent"
+  },
+  { "word": "perfect", "definition": "precisely accurate or exact" },
+  { "word": "perform", "definition": "carry out or perform an action" },
+  { "word": "perhaps", "definition": "by chance" },
+  {
+    "word": "picture",
+    "definition": "graphic art consisting of an artistic composition made by applying paints to a surface"
+  },
+  { "word": "planned", "definition": "designed or carried out according to a plan" },
+  { "word": "plastic", "definition": "forming or capable of forming or molding or fashioning" },
+  {
+    "word": "playing",
+    "definition": "the action of taking part in a game or sport or other recreation"
+  },
+  {
+    "word": "popular",
+    "definition": "(of music or art) new and of general appeal (especially among young people)"
+  },
+  { "word": "portion", "definition": "the allotment of some amount by dividing something" },
+  { "word": "premier", "definition": "preceding all others in time" },
+  {
+    "word": "prepare",
+    "definition": "make ready or suitable or equip in advance for a particular purpose or for some use, event, etc"
+  },
+  {
+    "word": "present",
+    "definition": "temporal sense; intermediate between past and future; now existing or happening or in consideration"
+  },
+  {
+    "word": "prevent",
+    "definition": "stop (someone or something) from doing something or being in a certain state"
+  },
+  { "word": "primary", "definition": "not derived from or reducible to something else; basic" },
+  { "word": "private", "definition": "not expressed" },
+  { "word": "problem", "definition": "a source of difficulty" },
+  {
+    "word": "process",
+    "definition": "a sustained phenomenon or one marked by gradual changes through a series of states"
+  },
+  { "word": "produce", "definition": "fresh fruits and vegetable grown for the market" },
+  { "word": "product", "definition": "items for sale to the individual consumer" },
+  { "word": "profile", "definition": "biographical sketch" },
+  {
+    "word": "program",
+    "definition": "a performance (or series of performances) at a public presentation"
+  },
+  { "word": "project", "definition": "any piece of work that is undertaken or attempted" },
+  { "word": "promise", "definition": "grounds for feeling hopeful about the future" },
+  { "word": "promote", "definition": "make publicity for; try to sell (a product)" },
+  { "word": "protect", "definition": "shield from danger, injury, destruction, or damage" },
+  {
+    "word": "protein",
+    "definition": "any of a large group of nitrogenous organic compounds that are essential constituents of living cells; consist of polymers of amino acids; essential in the diet of animals for growth and for repair of tissues; can be obtained from meat and eggs and milk and legumes"
+  },
+  { "word": "provide", "definition": "take measures in preparation for" },
+  {
+    "word": "purpose",
+    "definition": "the quality of being determined to do or achieve something; firmness of purpose"
+  },
+  { "word": "putting", "definition": "hitting a golf ball that is on the green using a putter" },
+  { "word": "quality", "definition": "of high social status" },
+  { "word": "quarter", "definition": "clemency or mercy shown to a defeated opponent" },
+  { "word": "quickly", "definition": "with speed" },
+  { "word": "reading", "definition": "the act of measuring with meters or similar instruments" },
+  { "word": "reality", "definition": "the quality possessed by something that is real" },
+  { "word": "realize", "definition": "perceive (an idea or situation) mentally" },
+  { "word": "receive", "definition": "convert into sounds or pictures" },
+  { "word": "reduced", "definition": "made less in size or amount or degree" },
+  { "word": "regular", "definition": "in accord with regular practice or procedure" },
+  { "word": "related", "definition": "connected by kinship, common origin, or marriage" },
+  { "word": "release", "definition": "the act of liberating someone or something" },
+  { "word": "remains", "definition": "the dead body of a human being" },
+  { "word": "removed", "definition": "separate or apart in time" },
+  {
+    "word": "replace",
+    "definition": "substitute a person or thing for (another that is broken or inefficient or lost or no longer working or yielding what is expected)"
+  },
+  {
+    "word": "request",
+    "definition": "a formal message requesting something that is submitted to an authority"
+  },
+  { "word": "require", "definition": "make someone do something" },
+  {
+    "word": "reserve",
+    "definition": "the trait of being uncommunicative; not volunteering anything more than necessary"
+  },
+  { "word": "respect", "definition": "behavior intended to please your parents" },
+  { "word": "respond", "definition": "show a response or a reaction to something" },
+  { "word": "revenue", "definition": "the entire amount of income before any deductions are made" },
+  { "word": "running", "definition": "continually repeated over a period of time" },
+  {
+    "word": "russian",
+    "definition": "of or pertaining to or characteristic of Russia or its people or culture or language"
+  },
+  { "word": "science", "definition": "ability to produce solutions in some problem domain" },
+  {
+    "word": "section",
+    "definition": "the cutting of or into body tissues or organs (especially by a surgeon as part of an operation)"
+  },
+  { "word": "seeking", "definition": "an attempt to acquire or gain something" },
+  { "word": "selling", "definition": "the exchange of goods for an agreed sum of money" },
+  { "word": "senator", "definition": "a member of a senate" },
+  { "word": "sending", "definition": "the act of causing something to go (especially messages)" },
+  { "word": "serious", "definition": "causing fear or anxiety by threatening great harm" },
+  { "word": "service", "definition": "the performance of duties by a waiter or servant" },
+  { "word": "serving", "definition": "the act of delivering a writ or summons upon someone" },
+  { "word": "session", "definition": "a meeting devoted to a particular activity" },
+  {
+    "word": "setting",
+    "definition": "arrangement of scenery and properties to represent the place where a play or movie is enacted"
+  },
+  { "word": "several", "definition": "considered individually" },
+  { "word": "sharing", "definition": "unselfishly willing to share with others" },
+  { "word": "showing", "definition": "something shown to the public" },
+  {
+    "word": "similar",
+    "definition": "resembling or similar; having the same or some of the same characteristics; often used in combination"
+  },
+  { "word": "singing", "definition": "smooth and flowing" },
+  {
+    "word": "sitting",
+    "definition": "(of persons) having the torso erect and legs bent with the body supported on the buttocks"
+  },
+  { "word": "smaller", "definition": "small or little relative to something else" },
+  { "word": "smoking", "definition": "emitting smoke in great volume" },
+  {
+    "word": "society",
+    "definition": "an extended social group having a distinctive cultural and economic organization"
+  },
+  {
+    "word": "somehow",
+    "definition": "in some unspecified way or manner; or by some unspecified means"
+  },
+  {
+    "word": "someone",
+    "definition": "a human being; person, singular, assertive existential pronoun; pronoun, person, singular; quantifier: assertive existential"
+  },
+  {
+    "word": "spanish",
+    "definition": "of or relating to or characteristic of Spain or the people of Spain"
+  },
+  { "word": "special", "definition": "surpassing what is common or usual or expected" },
+  { "word": "species", "definition": "a specific kind of something" },
+  { "word": "stadium", "definition": "a large structure for open-air sports or entertainments" },
+  {
+    "word": "station",
+    "definition": "a facility equipped with special equipment and personnel for a particular purpose"
+  },
+  { "word": "stopped", "definition": "(of a nose) blocked" },
+  { "word": "storage", "definition": "depositing in a warehouse" },
+  { "word": "strange", "definition": "not known before" },
+  {
+    "word": "student",
+    "definition": "someone (especially a child) who learns (as from a teacher) or takes up knowledge or beliefs"
+  },
+  { "word": "subject", "definition": "likely to be affected by something" },
+  { "word": "success", "definition": "an attainment that is successful" },
+  { "word": "suggest", "definition": "call to mind" },
+  { "word": "suicide", "definition": "the act of killing yourself" },
+  { "word": "support", "definition": "documentary validation" },
+  { "word": "suppose", "definition": "expect, believe, or suppose" },
+  { "word": "supreme", "definition": "greatest in status or authority or power" },
+  { "word": "surface", "definition": "on the surface" },
+  {
+    "word": "surgery",
+    "definition": "a medical procedure involving an incision with instruments; performed to repair damage or arrest disease in a living body"
+  },
+  { "word": "survive", "definition": "support oneself" },
+  { "word": "suspect", "definition": "not as expected" },
+  { "word": "talking", "definition": "an exchange of ideas via conversation" },
+  { "word": "teacher", "definition": "a personified abstraction that teaches" },
+  { "word": "telling", "definition": "producing a strong effect" },
+  {
+    "word": "testing",
+    "definition": "the act of giving students or candidates a test (as by questions) to determine what they know or have learned"
+  },
+  {
+    "word": "theatre",
+    "definition": "a building where theatrical performances or motion-picture shows can be presented"
+  },
+  {
+    "word": "therapy",
+    "definition": "(medicine) the act of caring for someone (as by medication or remedial training etc.)"
+  },
+  {
+    "word": "thought",
+    "definition": "the process of using your mind to consider something carefully"
+  },
+  {
+    "word": "through",
+    "definition": "(of a route or journey etc.) continuing without requiring stops or changes"
+  },
+  { "word": "tonight", "definition": "during the night of the present day" },
+  {
+    "word": "totally",
+    "definition": "to a complete degree or to the full or entire extent; Completely or entirely"
+  },
+  { "word": "trading", "definition": "buying or selling securities or commodities" },
+  { "word": "traffic", "definition": "social or verbal interchange (usually followed by ‘with’)" },
+  {
+    "word": "trained",
+    "definition": "shaped or conditioned or disciplined by training; often used as a combining form"
+  },
+  {
+    "word": "treated",
+    "definition": "made hard or flexible or resilient especially by heat treatment"
+  },
+  { "word": "trouble", "definition": "an effort that is inconvenient" },
+  { "word": "tuesday", "definition": "the third day of the week; the second working day" },
+  { "word": "turning", "definition": "act of changing in practice or custom" },
+  { "word": "twitter", "definition": "a series of chirps" },
+  { "word": "typical", "definition": "of a feature that helps to distinguish a person or thing" },
+  { "word": "unknown", "definition": "being or having an unknown or unnamed source" },
+  { "word": "usually", "definition": "under normal conditions" },
+  { "word": "variety", "definition": "noticeable heterogeneity" },
+  { "word": "various", "definition": "considered individually" },
+  { "word": "vehicle", "definition": "a conveyance that transports people or objects" },
+  {
+    "word": "version",
+    "definition": "manual turning of a fetus in the uterus (usually to aid delivery)"
+  },
+  { "word": "victory", "definition": "a successful ending of a struggle or contest" },
+  { "word": "village", "definition": "a community of people smaller than a town" },
+  { "word": "waiting", "definition": "being and remaining ready and available for use" },
+  { "word": "walking", "definition": "close enough to be walked to" },
+  { "word": "warning", "definition": "serving to warn" },
+  { "word": "wearing", "definition": "producing exhaustion" },
+  { "word": "weather", "definition": "towards the side exposed to wind" },
+  { "word": "wedding", "definition": "the act of marrying; the nuptial ceremony" },
+  {
+    "word": "weekend",
+    "definition": "a time period usually extending from Friday night through Sunday; more loosely defined as any period of successive days including one and only one Sunday"
+  },
+  {
+    "word": "welcome",
+    "definition": "giving pleasure or satisfaction or received with pleasure or freely granted"
+  },
+  { "word": "western", "definition": "lying toward or situated in the west" },
+  { "word": "willing", "definition": "not brought about by coercion or force" },
+  {
+    "word": "windows",
+    "definition": "(trademark) an operating system with a graphical user interface"
+  },
+  { "word": "winning", "definition": "very attractive; capturing interest" },
+  { "word": "witness", "definition": "testimony by word or deed to your religious faith" },
+  { "word": "working", "definition": "serving to permit or facilitate further work or activity" },
+  { "word": "worried", "definition": "mentally upset over possible misfortune or danger etc" },
+  { "word": "writing", "definition": "the activity of putting something in written form" },
+  { "word": "written", "definition": "written as for a film or play or broadcast" },
+  {
+    "word": "younger",
+    "definition": "used of the younger of two persons of the same name especially used to distinguish a son from his father"
+  }
+]

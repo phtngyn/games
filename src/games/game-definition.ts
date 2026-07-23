@@ -1,4 +1,3 @@
-import type { LucideIcon } from 'lucide-react'
 import type { ComponentType } from 'react'
 
 export type GameDefinition = {
@@ -6,6 +5,6 @@ export type GameDefinition = {
   path: string
   title: string
   description: string
-  Icon: LucideIcon
+  Icon: ComponentType<{ className?: string }>
   Screen: ComponentType
 }
