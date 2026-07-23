@@ -78,6 +78,14 @@
   padding-left: max(1rem, env(safe-area-inset-left));
 }
 
+@utility pt-safe {
+  padding-top: env(safe-area-inset-top);
+}
+
+@utility pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -93,6 +101,7 @@
     min-height: 100dvh;
     background: var(--background);
     overscroll-behavior: none;
+    overflow-x: hidden;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
   }

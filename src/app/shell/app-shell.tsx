@@ -1,4 +1,4 @@
-import { Volume2, VolumeX } from 'lucide-react'
+import { ArrowLeft, Volume2, VolumeX } from 'lucide-react'
 import { Suspense } from 'react'
 import { Link, Outlet, useLocation } from 'react-router-dom'
 
@@ -11,33 +11,46 @@ const gameLoadingFallback = (
   </div>
 )
 
+function SoundToggle() {
+  const sound = useSound()
+
+  return (
+    <button
+      type="button"
+      onClick={sound.toggle}
+      className="grid size-11 place-items-center rounded-full text-muted-foreground transition-colors hover:bg-muted hover:text-foreground focus-visible:ring-2 focus-visible:outline-none"
+      aria-label={sound.enabled ? 'Mute sounds' : 'Enable sounds'}
+    >
+      {sound.enabled ? (
+        <Volume2 className="size-[1.125rem]" />
+      ) : (
+        <VolumeX className="size-[1.125rem]" />
+      )}
+    </button>
+  )
+}
+
 export function AppShell() {
   const location = useLocation()
-  const sound = useSound()
   const isHome = location.pathname === '/'
 
   return (
     <div className="mx-auto flex min-h-dvh w-full max-w-lg flex-col px-safe">
-      <header className="flex h-14 shrink-0 items-center justify-between border-b">
+      <header className="flex h-[calc(3.5rem+env(safe-area-inset-top))] shrink-0 items-center justify-between pt-safe">
         <Link
           to="/"
-          className="rounded-md text-lg font-black tracking-tight outline-none focus-visible:ring-2"
+          className="flex min-h-11 items-center gap-2 rounded-full pr-3 text-sm font-semibold tracking-tight focus-visible:ring-2 focus-visible:outline-none"
+          aria-label={isHome ? 'Games home' : 'Back to all games'}
         >
-          {isHome ? 'Games' : '← Games'}
+          {!isHome && <ArrowLeft className="size-[1.125rem] text-muted-foreground" />}
+          <span>{isHome ? 'Games' : 'All games'}</span>
         </Link>
-        <div className="flex gap-1">
+        <div className="flex items-center">
           <ThemeToggle />
-          <button
-            type="button"
-            onClick={sound.toggle}
-            className="grid size-11 place-items-center rounded-lg text-muted-foreground hover:bg-muted hover:text-foreground"
-            aria-label={sound.enabled ? 'Mute sounds' : 'Enable sounds'}
-          >
-            {sound.enabled ? <Volume2 className="size-5" /> : <VolumeX className="size-5" />}
-          </button>
+          <SoundToggle />
         </div>
       </header>
-      <main className="min-h-0 flex-1">
+      <main className="min-h-0 flex-1 pb-safe">
         <Suspense fallback={gameLoadingFallback}>
           <Outlet />
         </Suspense>
