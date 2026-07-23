@@ -1,0 +1,116 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+@import '@fontsource-variable/inter';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --color-keyboard: var(--keyboard);
+  --color-keyboard-foreground: var(--keyboard-foreground);
+  --color-keyboard-hover: var(--keyboard-hover);
+  --color-keyboard-muted: var(--keyboard-muted);
+  --color-keyboard-muted-foreground: var(--keyboard-muted-foreground);
+  --color-keyboard-positive: var(--keyboard-positive);
+  --color-keyboard-positive-foreground: var(--keyboard-positive-foreground);
+  --color-keyboard-warning: var(--keyboard-warning);
+  --color-keyboard-warning-foreground: var(--keyboard-warning-foreground);
+  --font-sans: 'Inter Variable', sans-serif;
+}
+
+:root {
+  color-scheme: light;
+  --background: oklch(0.985 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.95 0 0);
+  --muted-foreground: oklch(0.5 0 0);
+  --border: oklch(0.9 0 0);
+  --ring: oklch(0.55 0 0);
+  --keyboard: oklch(0.9 0 0);
+  --keyboard-foreground: var(--foreground);
+  --keyboard-hover: oklch(0.84 0 0);
+  --keyboard-muted: oklch(0.47 0 0);
+  --keyboard-muted-foreground: oklch(0.985 0 0);
+  --keyboard-positive: oklch(0.52 0.14 145);
+  --keyboard-positive-foreground: oklch(0.985 0 0);
+  --keyboard-warning: oklch(0.62 0.12 84);
+  --keyboard-warning-foreground: oklch(0.985 0 0);
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.922 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --border: oklch(1 0 0 / 12%);
+  --ring: oklch(0.65 0 0);
+  --keyboard: oklch(0.34 0 0);
+  --keyboard-foreground: var(--foreground);
+  --keyboard-hover: oklch(0.4 0 0);
+  --keyboard-muted: oklch(0.23 0 0);
+  --keyboard-muted-foreground: oklch(0.65 0 0);
+  --keyboard-positive: oklch(0.54 0.14 145);
+  --keyboard-positive-foreground: oklch(0.985 0 0);
+  --keyboard-warning: oklch(0.6 0.12 84);
+  --keyboard-warning-foreground: oklch(0.985 0 0);
+}
+
+@utility px-safe {
+  padding-right: max(1rem, env(safe-area-inset-right));
+  padding-left: max(1rem, env(safe-area-inset-left));
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    @apply bg-background font-sans text-foreground;
+    min-width: 320px;
+    min-height: 100%;
+  }
+
+  body {
+    min-height: 100dvh;
+    background: var(--background);
+    overscroll-behavior: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  button,
+  a {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

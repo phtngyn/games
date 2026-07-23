@@ -1,0 +1,40 @@
+{
+  "name": "games",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vp build",
+    "check": "vp check",
+    "check:fix": "vp check --fix",
+    "dev": "vp dev",
+    "test": "vp test",
+    "typecheck": "vp check --no-fmt"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "catalog:",
+    "cuelume": "catalog:",
+    "lucide-react": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "react-router-dom": "catalog:"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "catalog:",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "@vitejs/plugin-react": "catalog:",
+    "@voidzero-dev/vite-plus-core": "catalog:",
+    "oxlint-tsgolint": "catalog:",
+    "shadcn": "catalog:",
+    "tailwindcss": "catalog:",
+    "tw-animate-css": "catalog:",
+    "typescript": "catalog:",
+    "vite-plus": "catalog:"
+  },
+  "engines": {
+    "node": ">=24",
+    "pnpm": ">=11"
+  }
+}
