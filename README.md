@@ -22,7 +22,9 @@ pnpm build
 The game-agnostic QWERTY keyboard lives in `src/ui/game`. Games supply optional leading and trailing
 action keys plus neutral key tones; the keyboard owns its letter layout, touch interaction, and
 accessibility. Map domain states such as Wordle's letter results to keyboard tones inside the game,
-not inside the shared module.
+not inside the shared module. Shared `game-*` color tokens define positive, warning, negative,
+muted, active, and focused states for boards and keyboards; the neutral `keyboard-*` tokens only
+define key surfaces.
 
 Sound is an app-level preference provided once above the router. Use `data-cuelume-*` attributes for
 ordinary interface feedback such as navigation, menus, and toggles. Games should call `useSound()`

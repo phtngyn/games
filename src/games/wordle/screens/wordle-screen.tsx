@@ -114,11 +114,11 @@ function Board({
               const state = states[columnIndex]
               const tone =
                 state === 'correct'
-                  ? 'border-keyboard-positive bg-keyboard-positive text-keyboard-positive-foreground'
+                  ? 'border-game-positive bg-game-positive text-game-positive-foreground'
                   : state === 'present'
-                    ? 'border-keyboard-warning bg-keyboard-warning text-keyboard-warning-foreground'
+                    ? 'border-game-warning bg-game-warning text-game-warning-foreground'
                     : state === 'absent'
-                      ? 'border-keyboard-muted bg-keyboard-muted text-keyboard-muted-foreground'
+                      ? 'border-game-muted bg-game-muted text-game-muted-foreground'
                       : letter
                         ? 'scale-[1.025] border-foreground/30 bg-card'
                         : 'border-border bg-card'

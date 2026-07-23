@@ -19,12 +19,18 @@
   --color-keyboard: var(--keyboard);
   --color-keyboard-foreground: var(--keyboard-foreground);
   --color-keyboard-hover: var(--keyboard-hover);
-  --color-keyboard-muted: var(--keyboard-muted);
-  --color-keyboard-muted-foreground: var(--keyboard-muted-foreground);
-  --color-keyboard-positive: var(--keyboard-positive);
-  --color-keyboard-positive-foreground: var(--keyboard-positive-foreground);
-  --color-keyboard-warning: var(--keyboard-warning);
-  --color-keyboard-warning-foreground: var(--keyboard-warning-foreground);
+  --color-game-muted: var(--game-muted);
+  --color-game-muted-foreground: var(--game-muted-foreground);
+  --color-game-positive: var(--game-positive);
+  --color-game-positive-foreground: var(--game-positive-foreground);
+  --color-game-warning: var(--game-warning);
+  --color-game-warning-foreground: var(--game-warning-foreground);
+  --color-game-negative: var(--game-negative);
+  --color-game-negative-foreground: var(--game-negative-foreground);
+  --color-game-active: var(--game-active);
+  --color-game-active-foreground: var(--game-active-foreground);
+  --color-game-focus: var(--game-focus);
+  --color-game-focus-foreground: var(--game-focus-foreground);
   --font-sans: 'Inter Variable', sans-serif;
 }
 
@@ -43,12 +49,18 @@
   --keyboard: oklch(0.9 0 0);
   --keyboard-foreground: var(--foreground);
   --keyboard-hover: oklch(0.84 0 0);
-  --keyboard-muted: oklch(0.47 0 0);
-  --keyboard-muted-foreground: oklch(0.985 0 0);
-  --keyboard-positive: oklch(0.52 0.14 145);
-  --keyboard-positive-foreground: oklch(0.985 0 0);
-  --keyboard-warning: oklch(0.62 0.12 84);
-  --keyboard-warning-foreground: oklch(0.985 0 0);
+  --game-muted: oklch(0.47 0 0);
+  --game-muted-foreground: oklch(0.985 0 0);
+  --game-positive: oklch(0.52 0.14 145);
+  --game-positive-foreground: oklch(0.985 0 0);
+  --game-warning: oklch(0.62 0.12 84);
+  --game-warning-foreground: oklch(0.985 0 0);
+  --game-negative: oklch(0.58 0.2 25);
+  --game-negative-foreground: oklch(0.985 0 0);
+  --game-active: oklch(0.901 0.058 230.902);
+  --game-active-foreground: oklch(0.145 0 0);
+  --game-focus: oklch(0.879 0.169 91.605);
+  --game-focus-foreground: oklch(0.141 0.005 285.823);
 }
 
 .dark {
@@ -65,12 +77,18 @@
   --keyboard: oklch(0.34 0 0);
   --keyboard-foreground: var(--foreground);
   --keyboard-hover: oklch(0.4 0 0);
-  --keyboard-muted: oklch(0.23 0 0);
-  --keyboard-muted-foreground: oklch(0.65 0 0);
-  --keyboard-positive: oklch(0.54 0.14 145);
-  --keyboard-positive-foreground: oklch(0.985 0 0);
-  --keyboard-warning: oklch(0.6 0.12 84);
-  --keyboard-warning-foreground: oklch(0.985 0 0);
+  --game-muted: oklch(0.23 0 0);
+  --game-muted-foreground: oklch(0.65 0 0);
+  --game-positive: oklch(0.54 0.14 145);
+  --game-positive-foreground: oklch(0.985 0 0);
+  --game-warning: oklch(0.6 0.12 84);
+  --game-warning-foreground: oklch(0.985 0 0);
+  --game-negative: oklch(0.55 0.18 25);
+  --game-negative-foreground: oklch(0.985 0 0);
+  --game-active: oklch(0.5 0.134 242.749);
+  --game-active-foreground: oklch(0.985 0 0);
+  --game-focus: oklch(0.828 0.189 84.429);
+  --game-focus-foreground: oklch(0.141 0.005 285.823);
 }
 
 @utility px-safe {

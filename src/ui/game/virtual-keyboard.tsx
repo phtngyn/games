@@ -44,12 +44,10 @@ function keyClasses(tone: VirtualKeyTone, active: boolean, action = false) {
     action ? 'flex-[1.35]' : 'flex-1',
     tone === 'default' && 'bg-keyboard text-keyboard-foreground hover:bg-keyboard-hover',
     tone === 'accent' && 'bg-primary text-primary-foreground hover:bg-primary/90',
-    tone === 'muted' &&
-      'bg-keyboard-muted text-keyboard-muted-foreground hover:bg-keyboard-muted/90',
+    tone === 'muted' && 'bg-game-muted text-game-muted-foreground hover:bg-game-muted/90',
     tone === 'positive' &&
-      'bg-keyboard-positive text-keyboard-positive-foreground hover:bg-keyboard-positive/90',
-    tone === 'warning' &&
-      'bg-keyboard-warning text-keyboard-warning-foreground hover:bg-keyboard-warning/90',
+      'bg-game-positive text-game-positive-foreground hover:bg-game-positive/90',
+    tone === 'warning' && 'bg-game-warning text-game-warning-foreground hover:bg-game-warning/90',
     active && 'z-10 scale-95',
   ]
     .filter(Boolean)
