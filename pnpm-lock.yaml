@@ -33,9 +33,6 @@ catalogs:
     lucide-react:
       specifier: ^1.26.0
       version: 1.26.0
-    oxlint-tsgolint:
-      specifier: ^7.0.2001
-      version: 7.0.2001
     react:
       specifier: ^19.2.8
       version: 19.2.8
@@ -108,7 +105,7 @@ importers:
         specifier: 'catalog:'
         version: 0.2.6(@types/node@26.1.1)(jiti@2.7.0)(typescript@7.0.2)
       oxlint-tsgolint:
-        specifier: 'catalog:'
+        specifier: ^7.0.2001
         version: 7.0.2001
       shadcn:
         specifier: 'catalog:'
@@ -125,6 +122,9 @@ importers:
       vite-plus:
         specifier: 'catalog:'
         version: 0.2.6(@types/node@26.1.1)(jiti@2.7.0)(typescript@7.0.2)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0))
+      vitest:
+        specifier: 4.1.10
+        version: 4.1.10(@types/node@26.1.1)(@vitest/browser-preview@4.1.10(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0))(vitest@4.1.10))(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0))
 
 packages:
 
@@ -3485,7 +3485,7 @@ snapshots:
       '@testing-library/dom': 10.4.1
       '@testing-library/user-event': 14.6.1(@testing-library/dom@10.4.1)
       '@vitest/browser': 4.1.10(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0))(vitest@4.1.10)
-      vitest: 4.1.10(@types/node@26.1.1)(@vitest/browser-preview@4.1.10)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0))
+      vitest: 4.1.10(@types/node@26.1.1)(@vitest/browser-preview@4.1.10(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0))(vitest@4.1.10))(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0))
     transitivePeerDependencies:
       - bufferutil
       - msw
@@ -3501,7 +3501,7 @@ snapshots:
       pngjs: 7.0.0
       sirv: 3.0.2
       tinyrainbow: 3.1.0
-      vitest: 4.1.10(@types/node@26.1.1)(@vitest/browser-preview@4.1.10)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0))
+      vitest: 4.1.10(@types/node@26.1.1)(@vitest/browser-preview@4.1.10(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0))(vitest@4.1.10))(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0))
       ws: 8.21.1
     transitivePeerDependencies:
       - bufferutil
@@ -4947,7 +4947,7 @@ snapshots:
       oxfmt: 0.60.0(vite-plus@0.2.6(@types/node@26.1.1)(jiti@2.7.0)(typescript@7.0.2)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)))
       oxlint: 1.75.0(oxlint-tsgolint@7.0.2001)(vite-plus@0.2.6(@types/node@26.1.1)(jiti@2.7.0)(typescript@7.0.2)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)))
       oxlint-tsgolint: 7.0.2001
-      vitest: 4.1.10(@types/node@26.1.1)(@vitest/browser-preview@4.1.10)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0))
+      vitest: 4.1.10(@types/node@26.1.1)(@vitest/browser-preview@4.1.10(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0))(vitest@4.1.10))(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0))
     optionalDependencies:
       '@voidzero-dev/vite-plus-darwin-arm64': 0.2.6
       '@voidzero-dev/vite-plus-darwin-x64': 0.2.6
@@ -5000,7 +5000,7 @@ snapshots:
       fsevents: 2.3.3
       jiti: 2.7.0
 
-  vitest@4.1.10(@types/node@26.1.1)(@vitest/browser-preview@4.1.10)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)):
+  vitest@4.1.10(@types/node@26.1.1)(@vitest/browser-preview@4.1.10(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0))(vitest@4.1.10))(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0)):
     dependencies:
       '@vitest/expect': 4.1.10
       '@vitest/mocker': 4.1.10(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0))

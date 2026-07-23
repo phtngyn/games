@@ -24,6 +24,12 @@ action keys plus neutral key tones; the keyboard owns its letter layout, touch i
 accessibility. Map domain states such as Wordle's letter results to keyboard tones inside the game,
 not inside the shared module.
 
+Sound is an app-level preference provided once above the router. Use `data-cuelume-*` attributes for
+ordinary interface feedback such as navigation, menus, and toggles. Games should call `useSound()`
+only for domain feedback whose meaning is known after an action, such as an invalid guess, a win, or
+a loss. This keeps one mute setting effective before, during, and between games without teaching the
+sound module about individual game rules.
+
 Each game exposes one small `GameDefinition` to the registry. Everything else remains private to
 that game. Add `domain`, `application`, and `screens` directories inside a game as they become
 useful:

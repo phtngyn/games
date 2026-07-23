@@ -2,6 +2,7 @@ import { ArrowLeft, Delete, Lightbulb, RefreshCw } from 'lucide-react'
 import { useCallback, useEffect, useMemo, useState, type MouseEvent } from 'react'
 
 import { useShellBar } from '@/app/shell/shell-bar-context'
+import { soundForKey, soundForOutcome, wordleRowAnimation } from '@/games/wordle/domain/feedback'
 import {
   keyboardStates,
   MAX_GUESSES,
@@ -11,6 +12,7 @@ import {
   type WordLength,
 } from '@/games/wordle/domain/wordle'
 import { acceptedGuessesFor, entriesFor } from '@/games/wordle/domain/words'
+import { useSound } from '@/platform/audio/sound-context'
 import { VirtualKeyboard, type VirtualKeyboardAction, type VirtualKeyTone } from '@/ui/game'
 
 type GameState = 'lost' | 'playing' | 'won'
@@ -59,6 +61,8 @@ function LengthSelector({ onSelect }: { onSelect: (length: WordLength) => void }
               type="button"
               value={length}
               onClick={selectLength}
+              data-cuelume-toggle="page"
+              data-cuelume-hover="tick"
               className="group flex min-h-20 items-center justify-between rounded-xl border bg-card p-4 text-left transition-colors hover:border-foreground/30 hover:bg-muted focus-visible:ring-2 focus-visible:outline-none"
             >
               <span className="text-2xl font-bold tracking-tight">{length}</span>
@@ -77,16 +81,18 @@ function Board({
   answer,
   currentGuess,
   guesses,
+  invalidAttempt,
   wordLength,
 }: {
   answer: string
   currentGuess: string
   guesses: string[]
+  invalidAttempt: number
   wordLength: WordLength
 }) {
   return (
     <div
-      className="grid w-full max-w-[min(22rem,48dvh)] grid-rows-6 gap-1.5"
+      className="grid w-full max-w-[min(100%,22.5rem,62dvh)] grid-rows-6 gap-1.5"
       aria-label="Word grid"
     >
       {Array.from({ length: MAX_GUESSES }, (unusedRow, rowIndex) => {
@@ -95,7 +101,14 @@ function Board({
         const states = submitted ? scoreGuess(submitted, answer) : []
 
         return (
-          <div key={rowIndex} className={`grid gap-1.5 ${boardColumns[wordLength]}`}>
+          <div
+            key={`${rowIndex}-${rowIndex === guesses.length ? invalidAttempt : 0}`}
+            className={`grid gap-1.5 ${boardColumns[wordLength]} ${wordleRowAnimation({
+              active: rowIndex === guesses.length,
+              invalid: invalidAttempt > 0,
+              submitted: Boolean(submitted),
+            })}`}
+          >
             {Array.from({ length: wordLength }, (unusedColumn, columnIndex) => {
               const letter = word[columnIndex] ?? ''
               const state = states[columnIndex]
@@ -137,8 +150,10 @@ function WordleGame({ onBack, wordLength }: { onBack: () => void; wordLength: Wo
   const [currentGuess, setCurrentGuess] = useState('')
   const [gameState, setGameState] = useState<GameState>('playing')
   const [message, setMessage] = useState('')
+  const [invalidAttempt, setInvalidAttempt] = useState(0)
   const [hintState, setHintState] = useState<'confirming' | 'idle' | 'revealed'>('idle')
   const setShellBar = useShellBar()
+  const sound = useSound()
 
   const newGame = useCallback(() => {
     setAnswerIndex((current) => randomIndex(entries.length, current))
@@ -146,6 +161,7 @@ function WordleGame({ onBack, wordLength }: { onBack: () => void; wordLength: Wo
     setCurrentGuess('')
     setGameState('playing')
     setMessage('')
+    setInvalidAttempt(0)
     setHintState('idle')
   }, [entries.length])
   const requestHint = useCallback(
@@ -156,6 +172,7 @@ function WordleGame({ onBack, wordLength }: { onBack: () => void; wordLength: Wo
   const handleKey = useCallback(
     (key: string) => {
       if (gameState !== 'playing') return
+      sound.play(soundForKey(key))
       if (key === 'BACKSPACE') {
         setCurrentGuess((guess) => guess.slice(0, -1))
         return
@@ -163,20 +180,26 @@ function WordleGame({ onBack, wordLength }: { onBack: () => void; wordLength: Wo
       if (key === 'ENTER') {
         if (currentGuess.length !== wordLength) {
           setMessage('Not enough letters')
+          setInvalidAttempt((attempt) => attempt + 1)
+          sound.play(soundForOutcome('invalid'))
           return
         }
         if (!validWords.has(currentGuess)) {
           setMessage('Not in word list')
+          setInvalidAttempt((attempt) => attempt + 1)
+          sound.play(soundForOutcome('invalid'))
           return
         }
         const nextGuesses = [...guesses, currentGuess]
         const won = currentGuess === answer
+        setInvalidAttempt(0)
         setGuesses(nextGuesses)
         setCurrentGuess('')
         if (won || nextGuesses.length === MAX_GUESSES) {
           const nextState: GameState = won ? 'won' : 'lost'
           setGameState(nextState)
           setMessage(won ? (nextGuesses.length <= 2 ? 'Brilliant!' : 'Splendid!') : answer)
+          sound.play(soundForOutcome(nextState))
         }
         return
       }
@@ -185,7 +208,7 @@ function WordleGame({ onBack, wordLength }: { onBack: () => void; wordLength: Wo
         setCurrentGuess((guess) => (guess.length < wordLength ? `${guess}${key}` : guess))
       }
     },
-    [answer, currentGuess, gameState, guesses, validWords, wordLength],
+    [answer, currentGuess, gameState, guesses, sound, validWords, wordLength],
   )
 
   useEffect(() => {
@@ -220,6 +243,7 @@ function WordleGame({ onBack, wordLength }: { onBack: () => void; wordLength: Wo
         <button
           type="button"
           onClick={onBack}
+          data-cuelume-toggle="page"
           className="flex min-h-11 items-center gap-2 rounded-full pr-3 focus-visible:ring-2 focus-visible:outline-none"
         >
           <ArrowLeft className="size-[1.125rem] text-muted-foreground" />
@@ -230,6 +254,7 @@ function WordleGame({ onBack, wordLength }: { onBack: () => void; wordLength: Wo
         <button
           type="button"
           onClick={newGame}
+          data-cuelume-toggle="page"
           className="grid size-11 place-items-center rounded-full text-muted-foreground hover:bg-muted"
           aria-label="New game"
         >
@@ -247,7 +272,7 @@ function WordleGame({ onBack, wordLength }: { onBack: () => void; wordLength: Wo
 
   return (
     <section className="relative flex min-h-[calc(100dvh-3.5rem-env(safe-area-inset-top)-env(safe-area-inset-bottom))] flex-col overflow-hidden">
-      <div className="relative flex min-h-0 flex-1 flex-col items-center justify-between gap-2 py-2">
+      <div className="relative flex min-h-0 flex-1 flex-col items-center justify-between gap-2 pt-6 pb-2">
         {message && (
           <output className="absolute top-1 z-20 rounded-lg bg-foreground px-4 py-2 text-xs font-semibold text-background shadow-md">
             {message}
@@ -257,6 +282,7 @@ function WordleGame({ onBack, wordLength }: { onBack: () => void; wordLength: Wo
           answer={answer}
           currentGuess={currentGuess}
           guesses={guesses}
+          invalidAttempt={invalidAttempt}
           wordLength={wordLength}
         />
         <div className="flex min-h-10 items-center justify-center px-2 text-center">

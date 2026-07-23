@@ -19,6 +19,7 @@ function SoundToggle() {
     <button
       type="button"
       onClick={sound.toggle}
+      data-cuelume-toggle="toggle"
       className="grid size-11 place-items-center rounded-full text-muted-foreground transition-colors hover:bg-muted hover:text-foreground focus-visible:ring-2 focus-visible:outline-none"
       aria-label={sound.enabled ? 'Mute sounds' : 'Enable sounds'}
     >
@@ -44,6 +45,8 @@ export function AppShell() {
           {shellBar?.leading ?? (
             <Link
               to="/"
+              data-cuelume-toggle="page"
+              data-cuelume-hover="tick"
               className="flex min-h-11 items-center gap-2 rounded-full pr-3 text-sm font-semibold tracking-tight focus-visible:ring-2 focus-visible:outline-none"
               aria-label={isHome ? 'Games home' : 'Back to all games'}
             >

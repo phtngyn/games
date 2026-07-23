@@ -17,8 +17,11 @@ export function SoundProvider({ children }: PropsWithChildren) {
   const [enabled, setSoundEnabled] = useState(loadPreference)
 
   useEffect(() => {
-    setEnabled(enabled)
     bind()
+  }, [])
+
+  useEffect(() => {
+    setEnabled(enabled)
   }, [enabled])
 
   const playSound = useCallback((name: SoundName) => play(name), [])
@@ -26,7 +29,6 @@ export function SoundProvider({ children }: PropsWithChildren) {
     setSoundEnabled((current) => {
       const next = !current
       setEnabled(next)
-      if (next) play('toggle')
       try {
         window.localStorage.setItem(STORAGE_KEY, String(next))
       } catch {

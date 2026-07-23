@@ -9,6 +9,7 @@ export function ThemeToggle() {
     <button
       type="button"
       onClick={toggle}
+      data-cuelume-toggle="toggle"
       className="grid size-11 place-items-center rounded-lg text-muted-foreground hover:bg-muted hover:text-foreground"
       aria-label={`Use ${theme === 'light' ? 'dark' : 'light'} theme`}
     >

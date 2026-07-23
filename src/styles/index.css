@@ -113,6 +113,37 @@
   }
 }
 
+@keyframes wordle-shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+}
+
+@keyframes wordle-reveal {
+  0%,
+  100% {
+    transform: rotateX(0);
+  }
+  50% {
+    transform: rotateX(90deg);
+  }
+}
+
+.animate-wordle-shake {
+  animation: wordle-shake 350ms ease-in-out;
+}
+
+.animate-wordle-reveal > * {
+  animation: wordle-reveal 400ms ease-out;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

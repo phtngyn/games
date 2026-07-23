@@ -16,6 +16,8 @@ export function HomeScreen() {
           <Link
             key={game.id}
             to={`/${game.path}`}
+            data-cuelume-toggle="page"
+            data-cuelume-hover="tick"
             className="group flex min-h-28 items-center gap-4 rounded-2xl border bg-card p-5 shadow-sm transition hover:border-foreground/20 hover:bg-muted/50 focus-visible:ring-2 focus-visible:outline-none"
           >
             <span className="grid size-12 shrink-0 place-items-center rounded-xl bg-primary text-primary-foreground">
