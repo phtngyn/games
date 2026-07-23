@@ -7,19 +7,27 @@
     "build": "vp build",
     "check": "vp check",
     "check:fix": "vp check --fix",
-    "dev": "vp dev",
+    "deploy": "alchemy deploy --stage production",
+    "destroy": "alchemy destroy --stage production",
+    "dev": "alchemy dev",
+    "dev:web": "vp dev",
+    "prepare": "effect-tsgo patch",
     "test": "vp test",
     "typecheck": "vp check --no-fmt"
   },
   "dependencies": {
     "@fontsource-variable/inter": "catalog:",
+    "alchemy": "catalog:",
     "cuelume": "catalog:",
+    "effect": "catalog:",
     "lucide-react": "catalog:",
     "react": "catalog:",
     "react-dom": "catalog:",
     "react-router-dom": "catalog:"
   },
   "devDependencies": {
+    "@effect/platform-node": "catalog:",
+    "@effect/tsgo": "catalog:",
     "@tailwindcss/vite": "catalog:",
     "@types/node": "catalog:",
     "@types/react": "catalog:",

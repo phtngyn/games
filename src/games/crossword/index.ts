@@ -1,6 +1,6 @@
-import { PanelsTopLeft } from 'lucide-react'
 import { lazy } from 'react'
 
+import { CrosswordLogo } from '@/games/crossword/crossword-logo'
 import type { GameDefinition } from '@/games/game-definition'
 
 export const crossword = {
@@ -8,6 +8,6 @@ export const crossword = {
   path: 'crossword',
   title: 'Crossword',
   description: 'Fill the grid one clue at a time.',
-  Icon: PanelsTopLeft,
+  Icon: CrosswordLogo,
   Screen: lazy(() => import('./screens/crossword-screen')),
 } satisfies GameDefinition
